@@ -14,12 +14,12 @@ body {
   padding: 30px;
 }
 
-/* .logo {
+.logo {
   width: 130px;
   height: 40px;
   background-image: url('../images/airbnb-logo.png');
   background-size: 130px;
-} */
+}
 
 .container {
   display: flex;
@@ -123,4 +123,8 @@ body {
 
 .line {
   border: 1px solid grey;
+}
+
+.link {
+  cursor: pointer;
 }

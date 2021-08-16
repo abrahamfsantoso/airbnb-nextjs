@@ -12,6 +12,7 @@ const Review = ({ review }) => {
           .crop('focalpoint')
           .auto('format')}
       />
+      <p>{review.reviewDescription}</p>
     </div>
   );
 };

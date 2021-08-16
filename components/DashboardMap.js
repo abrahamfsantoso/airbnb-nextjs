@@ -85,6 +85,7 @@ function MyComponent({ properties }) {
       <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={5}>
         {properties.map((property, index) => (
           <Marker
+            key={index}
             position={{
               lat: property?.location?.lat,
               lng: property?.location?.lng,
